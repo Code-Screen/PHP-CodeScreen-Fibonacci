@@ -1,0 +1,10 @@
+.DS_Store
+
+/vendor/
+.env
+composer
+composer.phar
+composer-setup.php
+
+.idea
+*.iml
