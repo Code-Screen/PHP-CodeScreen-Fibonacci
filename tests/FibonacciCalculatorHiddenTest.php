@@ -6,7 +6,7 @@ class FibonacciCalculatorHiddenTest extends TestCase {
 
     protected static $calc;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
       static::$calc = new FibonacciCalculator();
     }
